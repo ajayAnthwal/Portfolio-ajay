@@ -22,7 +22,7 @@ export function LampDemo() {
           <SparklesPreview />
         </motion.h1>
         <p className="text-white absolute bottom-0 font-thin portfollio-content">
-          I'm a passionate React Js developer with a love for crafting visually
+          I&apos;m a passionate React Js developer with a love for crafting visually
           appealing and user-friendly websites and web application. My journey
           in the world of web development began with a curiosity to bring ideas
           to life through code. With a keen eye for design and a commitment to
