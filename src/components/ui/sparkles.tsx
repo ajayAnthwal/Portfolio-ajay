@@ -4,6 +4,7 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import { cn } from "@/utils/cn";
 import { motion, useAnimation } from "framer-motion";
+import { IResizeEvent } from "@tsparticles/engine";
 
 type ParticlesProps = {
   id?: string;
@@ -77,7 +78,7 @@ export const SparklesCore = (props: ParticlesProps) => {
                   enable: true,
                   mode: "push",
                 },
-                resize: true,
+                // resize: true,
               },
               modes: {
                 push: {
