@@ -2,7 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
-import { SparklesPreview } from "@/app/SparklesPreview/page"
+import { SparklesPreview } from "../SparklesPreview/SparklesPreview";
+// import { SparklesPreview } from "@/app/SparklesPreview/page"
 
 export function LampDemo() {
   return (
@@ -19,7 +20,7 @@ export function LampDemo() {
           className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-white md:text-7xl"
         >
           Ajay Anthwal
-          <SparklesPreview />
+          <SparklesPreview/>
         </motion.h1>
         <p className="text-white absolute bottom-0 font-thin portfollio-content">
           I&apos;m a passionate React Js developer with a love for crafting visually

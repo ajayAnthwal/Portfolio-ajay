@@ -1,6 +1,6 @@
 "use client";
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
-import { SignupFormDemo } from "../SignupFormDemo/page";
+import { SignupFormDemo } from "../SignupFormDemo/SignupFormDemo";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 
 

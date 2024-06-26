@@ -1,8 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight";
-import { AnimatedTooltipPreview } from "../AnimatedTooltipPreview/page";
-import { PlaceholdersAndVanishInputDemo } from "../PlaceholdersAndVanishInputDemo/page";
+import { AnimatedTooltipPreview } from "../AnimatedTooltipPreview/AnimatedTooltipPreview";
+import { PlaceholdersAndVanishInputDemo } from "../PlaceholdersAndVanishInputDemo/PlaceholdersAndVanishInputDemo";
 export function HeroHighlightDemo() {
   return (
     <HeroHighlight>

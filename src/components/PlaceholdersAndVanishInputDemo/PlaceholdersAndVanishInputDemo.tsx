@@ -1,7 +1,7 @@
 "use client";
 
 import { PlaceholdersAndVanishInput } from '@/components/ui/placeholders-and-vanish-input';
-import { TextGenerateEffectDemo } from '../TextGenerateEffectDemo/page';
+import { TextGenerateEffectDemo } from '../TextGenerateEffectDemo/TextGenerateEffectDemo';
 
 export function PlaceholdersAndVanishInputDemo() {
   const placeholders = [
